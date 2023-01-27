@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* html, body {
+    max-width: 100%;
+    overflow-x: hidden ;
+} */
+
+.header {
+  height: 900px;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 809px;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+}
+.banner-title {
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  text-align: right;
+  width: 500px;
+  height: 228px;
+  left: 740px;
+  top: 250px;
+}
+.banner-para {
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  text-align: right;
+  width: 500px;
+  height: 500px;
+  left: 740px;
+  top: 525px;
+}
+.btn {
+  position: absolute;
+  text-align: center;
+  justify-content: right;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  width: 140px;
+  height: 50px;
+  left: 1100px;
+  top: 600px;
+  color: #ffffff;
+  background: #fd6e0a;
+}
+.about_me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+}
+.my_failures {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: flex-start;
+  position: relative;
+  left: 120px;
+  gap: 10px;
+  margin-right: 350px;
+}
+#id{
+    color: green;
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+.my_failures li {
+  list-style-type: none;
+  padding: 10px;
+}
+.select_icon {
+  color: green;
+}
+/* .failures_title {
+  text-align: center;
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-bottom: 17px;
+} */
+/* .failures_description {
+  text-align: center;
+  margin-right: 300px;
+} */
+/* .my_failures li {
+  text-align: center;
+  margin-right: 400px;
+  margin: 10px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+} */
+.my_plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.title {
+  margin-top: 90px;
+}
+.title h1 {
+  text-align: center;
+}
+
+.coding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .coding img {
+  justify-content: center;
+   text-align: center;
+  left: 500px;
+} */
+/* My_watch */
+.my_watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  margin-top: 10px;
+  width: 820px;
+  height: 200px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
+}
+
+/* .title_h2{
+    color: #ffffff;
+    position: relative;
+    top: 35px;
+    left: 150px;  
+} */
+.call_btn {
+  width: 110px;
+  height: 45px;
+  margin-left: 30px;
+  padding: 10px;
+  color: #f15b22;
+  border: 0;
+  border-radius: 5px;
+}
+.footer {
+  background-color: #000000;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  justify-content: space-between;
+  column-gap: 600px;
+}
+.title_h2 {
+  color: #ffffff;
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  left: 0px;
+  padding: 10px;
+}
+
+.para,
+.email,
+.phone {
+  color: #ffffff;
+  position: relative;
+  left: 12px;
+  /* box-sizing: border-box; */
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 13px;
+}
+.footer_description {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 50px;
+  color: #ffffff;
+}
+
+.title_subs {
+  position: relative;
+  top: 30px;
+  right: 190px;
+}
+.future {
+  position: relative;
+  margin-left: 270px;
+  margin-bottom: 20px;
+}
+
+.media_container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 57px;
+  margin-bottom: 20px;
+}
+.media_icon {
+  height: 20px;
+  width: 20px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.li1,
+.li2,
+.li3 {
+  height: 30px;
+  width: 30px;
+}
+#email {
+  box-sizing: border-box;
+  width: 180px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #000000;
+}
+.subs_content {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 10px;
+  position: relative;
+  top: 30px;
+  right: 150px;
+}
+#subs_btn {
+  background-color: #ffffff;
+  color: #f15b22;
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* .subs_title{
+    margin-bottom: 10px;
+} */
